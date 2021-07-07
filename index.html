@@ -25,6 +25,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		});
 	</script>
+	<style>
+		.collapsible {
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+		}
+
+		.openup, .collapsible:hover {
+
+		}
+
+		.into {
+			padding: 0 18px;
+			display: none;
+			overflow: hidden;
+			background-color: #f1f1f1;
+		}
+	</style>
 </head>
 <body>
 <div class="header" id="head">	
@@ -94,7 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="works-section" id="work" id="work">
 	   <div class="works-header">
 			<h3>Projecten</h3>
-				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+				<p>Hier volgen een aantal projecten waar ik aan heb gewerkt tijdens mijn BPV. ik zal een korte uitleg geven van het project en de rol die ik hierin heb gespeeld.<br>Ook zullen er links beschikbaar zijn naar de omgevingen voor deze projecten zodat u zelf kunt rondkijken en een oordeel kunt geven</p>
 		</div>
 		<div class="portfolio-section-bottom-row" id="portfolio">
 			<div class="container">
@@ -130,14 +153,76 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 				<div class="wrap-4">
 					<input type="radio" id="tab-4" name="tabs" style="color:black;">
-					<label for="tab-4"><div style="color: black">Kerntaak 1</div><div class="cross"></div></label>
-					<div class="jontent" style="color: black"></div>
+					<label for="tab-4"><div style="color: black; font-weight: bold">Kerntaak 1: Levert een bijdrage aan het ontwikkeltraject</div><div class="cross"></div></label>
+					<div class="jontent" style="color: black">
+						<p>In deze kerntaak tref ik de voorbereidingen voor het ontwikkelen van de applicatie. Dit betekent dat ik als eerste een gesprek ga voeren met de klant en aan de hand van dit gesprek maak ik een programma van eisen, een projectplan, een functioneel ontwerp en een technisch ontwerp. Deze stappen zijn opgedeeld in meerdere Werkprocessen</p><br>
+						<ol style="list-style-type: square">
+							<li>
+								<h4>Werkproces 1: Stelt de opdracht vast</h4>
+								<p>
+									In dit werkproces ben ik in gesprek gegaan met de afnemer van het project ik heb gepraat over de wensen van
+									de klant er is gepraat over de look van de website, de functionaliteiten en over de grenzen van dit project.<br>
+									Dit alles is verwerkt in het klantgesprek dat u hieronder kunt bekijken
+								</p>
+								<button type="button" class="collapsible btn-primary">Bekijk het Klantgesprek</button>
+								<div class="into">
+									<iframe src="videos/Klantgesprek%20rent-a-car.mp4" style="width: 100%; height: 100%" allowfullscreen></iframe>
+								</div>
+								<p>Na dit klantgesprek heb ik een programma van eisen opgesteld die het bedrijf en de wensen van het bedrijf samenvatten. Het PvE kunt u <a style="color: black; text-decoration: underline" href="documenten/Programma%20van%20Eisen.docx" target="_blank">hier bekijken</a>.</p>
+							</li>
+							<br>
+							<li>
+								<h4>Werkproces 2: Levert een bijdrage aan het projectplan</h4>
+								<p>
+									In dit werkprocess ben ik bezig geweest met het schrijven van een projectplan. In dit projectplan houd ik de uit te voeren activiteiten (welke inzet, middelen, en ontwikkelmethode) bij
+									en wanneer er met de klant gecomuniceerd moet worden bijvoorbeeld om een nieuwe functionaliteit te laten zien of om een nieuw idee te overleggen met de klant en zo nodig de planning aan te passen
+								</p>
+
+								<p>Het projectplan van deze applicatie kunt u <a style="color: black; text-decoration: underline" href="documenten/Projectplan.docx" target="_blank">hier bekijken</a>.</p>
+							</li>
+							<br>
+							<li>
+								<h4>Werkproces 3: Levert een bijdrage aan het ontwerp</h4>
+								<p>
+									In dit werkprocess ben ik begonnen aan het ontwerp voor deze applicatie,  op basis van het projectplan, eisen en wensen van de opdrachtgever heb ik een functioneel ontwerp & technisch ontwerp gemaakt.
+								</p>
+								<br>
+								<p>Een <b>functioneel ontwerp</b> betreft het gedeelte van de applicatie die de gebruiker ziet en moet dus duidelijk leesbaar en begrijpelijk zijn zodat de klant goed weet wat hem te wachten staat en nog eventuele wijzigingen kan doorgeven
+								ook in het functioneel ontwerp zijn wireframes dit zijn tekeningen van de site hoe de developer deze wil maken, details zoals lettertypes en kleuren worden ook allemaal opgenomen in het functioneel ontwerp
+									<br>Het functioneel ontwerp van deze applicatie kunt u <a style="color: black; text-decoration: underline" href="documenten/Mark%20Bout%20-%20Functioneel%20ontwerp.docx" target="_blank">hier bekijken</a>.
+								</p>
+								<br>
+								<p>
+									Een <b>technisch ontwerp</b> betreft het deel van de applicatie waar de gegevens worden beheerd en hoe deze gegevens tot elkaar in relatie staan.
+									Het technisch ontwerp is vooral bedoeld voor andere developers zodat die begrijpen hoe de applicatie in elkaar zit.<br>
+									Het technisch ontwerp bestaat uit een ERD (entity relationship diagram)
+									die de relaties tussen verschillende tabelen in de database weergeven en een Datadictionary: die de eigenschappen van de velden in de tabellen laten zien,
+									bijvoorbeeld of een veld verplict moet worden ingevyuld en welk type gegeven we willen in dat veld.
+									<br>Het technisch ontwerp van deze applicatie kunt u <a style="color: black; text-decoration: underline" href="documenten/Mark%20Bout%20-%20Technisch%20ontwerp.docx" target="_blank">hier bekijken</a>.
+								</p>
+							</li>
+							<br>
+							<li>
+								<h4>Werkproces 4: Bereidt de realisatie voor</h4>
+								<p>In dit werkproces richt ik een ontwikkelomgeving in voor het maken van de applicatie. Dit betekent dat ik een lokaale server opzet
+									met een database gespecificeerd naar het technisch ontwerp en de benodigde software voor dingen zoals versiebeheer, gebruikte frameworks,
+									browsers om mee te testen en de IDE (integrated development environment). Deze gegevens zijn belangrijk zodat mogelijk toekomstige developers aan een project weten wat er moet gebeuren om verder te werken aan een project en voor de huidige developers die willen weten waar een applicatie mee draait als er iets mis is
+								</p><br>
+								<p>Al deze informatie staat geducumenteerd en kunt u <a style="color: black; text-decoration: underline" href="documenten/Ontwikkelomgeving%20Mark%20Bout.docx" target="_blank">hier bekijken</a>.<br>Nadat ik de omgeving had ingericht heb ik deze getest deze test kunt u hieronder bekijken</p>
+								<button type="button" class="collapsible btn-primary">Bekijk de test</button>
+								<div class="into">
+									<iframe src="videos/Screencast%20werkende%20ontwikkelomgeving.mp4" style="width: 100%; height: 100%" allowfullscreen></iframe>
+								</div>
+							</li>
+						</ol>
+					</div>
 				</div>
 
 				<div class="wrap-5">
 					<input type="radio" id="tab-5" name="tabs" style="color: black">
-					<label for="tab-5"><div style="color: black">Kerntaak 2</div><div class="cross"></div></label>
-					<div class="jontent" style="color: black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quasi inventore unde nobis voluptatibus illum quae rerum laudantium minima, excepturi quis maiores. Eaque quae, nam delectus explicabo, deserunt ipsum!</div>
+					<label for="tab-5"><div style="color: black">Kerntaak 2: Realiseert en test (onderdelen van) een product</div><div class="cross"></div></label>
+					<div class="jontent" style="color: black">
+					</div>
 				</div>
 				<div class="wrap-6">
 					<input type="radio" id="tab-6" name="tabs" style="color: black">
@@ -165,8 +250,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a target="_blank" href="https://nl.linkedin.com/in/mark-hendrik-bout-9a0392161"><img src="images/LNimage.png"></a>
 			</div>
 			<div class="footer-bottom">
-
-					<p>&copy; 2015 Onepage . All rights  Reserved | Template by<a href="http://templatestock.com" target="target_blank">Template Stock</a></p>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 					</div>
 					<script type="text/javascript">
@@ -184,8 +268,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							
 						});
 					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 			</div>
 		</div>
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+			this.classList.toggle("openup");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+				content.style.display = "none";
+			} else {
+				content.style.display = "block";
+			}
+		});
+	}
+</script>
 </body>
 </html>
